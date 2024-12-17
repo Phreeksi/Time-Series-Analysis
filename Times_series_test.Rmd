@@ -1,0 +1,15 @@
+---
+title: "Time Series Analysis"
+author: "Jacob Polomsky"
+date: "2024-08-17"
+output: pdf_document
+---
+library(astsa)
+library(tseries)
+library(TSA)
+library(forecast)
+
+data <- read.csv("teleco_time_series .csv",TRUE,",")
+plot(data, type = "l")
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
